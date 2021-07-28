@@ -1,0 +1,16 @@
+PODS:
+  - YJMediaBrowser (0.1.0)
+
+DEPENDENCIES:
+  - YJMediaBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  YJMediaBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YJMediaBrowser: 0db1423b1a3f421d17503bb1eac4feb7aacf8adc
+
+PODFILE CHECKSUM: 2b1199b06530434c21c83401be3bab7a3b32a74d
+
+COCOAPODS: 1.10.1

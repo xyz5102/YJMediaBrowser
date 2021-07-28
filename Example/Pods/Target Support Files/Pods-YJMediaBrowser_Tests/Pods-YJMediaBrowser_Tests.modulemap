@@ -1,0 +1,6 @@
+framework module Pods_YJMediaBrowser_Tests {
+  umbrella header "Pods-YJMediaBrowser_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

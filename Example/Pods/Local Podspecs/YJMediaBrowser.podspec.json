@@ -1,0 +1,22 @@
+{
+  "name": "YJMediaBrowser",
+  "version": "0.1.0",
+  "summary": "A short description of YJMediaBrowser.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xyz5102/YJMediaBrowser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xyz5102": "627454910@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/xyz5102/YJMediaBrowser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YJMediaBrowser/Classes/**/*"
+}

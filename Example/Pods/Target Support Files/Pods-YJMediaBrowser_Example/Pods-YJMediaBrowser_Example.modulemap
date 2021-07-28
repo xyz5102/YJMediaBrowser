@@ -1,0 +1,6 @@
+framework module Pods_YJMediaBrowser_Example {
+  umbrella header "Pods-YJMediaBrowser_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

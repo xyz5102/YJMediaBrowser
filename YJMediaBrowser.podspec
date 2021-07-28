@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YJMediaBrowser'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YJMediaBrowser.'
+  s.summary          = '仿微信图片、视频浏览器'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 仿微信图片、视频浏览器。包括滑动查看、放大、缩小、拖拽、保存到相册、识别图中二维码等功能。
                        DESC
 
   s.homepage         = 'https://github.com/xyz5102/YJMediaBrowser'
@@ -37,6 +37,9 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+  s.dependency 'Masonry', '~> 1.1.0'
+  s.dependency 'SDWebImage', '~> 5.10.4'
+  s.dependency 'SDWebImageFLPlugin', '~> 0.5.0'
+  s.dependency 'AliPlayerSDK_iOS', '~> 5.3.2'
 end
